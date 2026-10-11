@@ -1,0 +1,64 @@
+{
+  "models": [
+    {
+      "name": "Logistic Regression",
+      "precision": 0.75,
+      "recall": 0.1429,
+      "auc": 0.9626
+    },
+    {
+      "name": "Decision Tree",
+      "precision": 0.0638,
+      "recall": 0.9524,
+      "auc": 0.9715
+    },
+    {
+      "name": "Random Forest",
+      "precision": 0.9512,
+      "recall": 0.9286,
+      "auc": 0.9885
+    }
+  ],
+  "features": [
+    {
+      "name": "balanceError",
+      "importance": 0.2055
+    },
+    {
+      "name": "amountToBalanceRatio",
+      "importance": 0.1835
+    },
+    {
+      "name": "errorOrig",
+      "importance": 0.1611
+    },
+    {
+      "name": "newbalanceOrig",
+      "importance": 0.1072
+    },
+    {
+      "name": "isRiskyType",
+      "importance": 0.0985
+    },
+    {
+      "name": "balanceDiffOrig",
+      "importance": 0.0604
+    },
+    {
+      "name": "type_PAYMENT",
+      "importance": 0.048
+    },
+    {
+      "name": "oldbalanceDest",
+      "importance": 0.0221
+    },
+    {
+      "name": "amount",
+      "importance": 0.0184
+    },
+    {
+      "name": "receiver_transactions",
+      "importance": 0.0177
+    }
+  ]
+}
